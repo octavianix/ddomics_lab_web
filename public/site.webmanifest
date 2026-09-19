@@ -1,0 +1,16 @@
+{
+  "name": "DDOmics Lab — NCCS Pune",
+  "short_name": "DDOmics Lab",
+  "description": "Microbiome research at the National Centre for Cell Science, Pune, led by Dr. Dhiraj Dhotre.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#0a0a0a",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    }
+  ]
+}

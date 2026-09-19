@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>DDOmics Lab — NCCS Pune</title>
+    <script>
+      // GitHub Pages has no server-side routing, so a hard refresh or direct
+      // link to e.g. /ddomicslab_website/people hits this 404 page. We
+      // encode the intended path into the query string and redirect to the
+      // app's index, which decodes it and restores the route client-side.
+      (function () {
+        var basePath = "/ddomics_lab_website";
+        var loc = window.location;
+        var redirect =
+          loc.pathname.replace(basePath, "") + loc.search + loc.hash;
+        loc.replace(
+          basePath + "/?redirect=" + encodeURIComponent(redirect),
+        );
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>
