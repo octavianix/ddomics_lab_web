@@ -4,6 +4,6 @@ import tailwindcss from "@tailwindcss/vite";
 import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig({
-  base: "/ddomics_lab_website/",
+  base: "/ddomics_lab_web/",
   plugins: [react(), tailwindcss(), tsconfigPaths()],
 });
