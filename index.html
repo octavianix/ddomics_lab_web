@@ -28,7 +28,7 @@
       (function () {
         var redirect = new URLSearchParams(window.location.search).get("redirect");
         if (redirect) {
-          var basePath = "/ddomics_lab_website";
+          var basePath = "/ddomics_lab_web";
           window.history.replaceState(null, "", basePath + redirect);
         }
       })();
